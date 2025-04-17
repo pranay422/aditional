@@ -42,7 +42,7 @@ http://localhost:5000/
   "heading": "Example Domain"
 }
 ```
-## 🧹 Clean Up
+## 🧹 To Clean Up (optional)
 
 To stop and remove the running container:
 

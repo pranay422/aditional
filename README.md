@@ -9,7 +9,7 @@ This project scrapes a website using Puppeteer in a Node.js environment, saves t
 - **Docker Multi-Stage Build**: Efficient, clean image with isolated concerns.
 
 ## 🧾 Project Structure
-.
+. 
 ├── Dockerfile
 ├── package.json
 ├── requirements.txt

@@ -16,16 +16,14 @@ The whole system is containerized using Docker for easy deployment.
 ## 🚀 Getting Started
 
 ### 1. **Clone the Repository**
-git clone GitHub-repo-url
-
-cd repo-url
+> git clone GitHub-repo-url
+> cd repo-url
 
 ### 2. **Build the Docker Image**
-docker build . -t scraper-server
-> Replace `https://example.com` with any URL you'd like to scrape.
+> docker build . -t scraper-server
 
 ### 3. **Run the Container**
-docker run -p 5000:5000 scraper-server
+> docker run -p 5000:5000 scraper-server
 ```
 
 Access the Application

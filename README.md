@@ -8,23 +8,10 @@ This project scrapes a website using Puppeteer in a Node.js environment, saves t
 - **Python + Flask**: Lightweight API server to serve scraped data.
 - **Docker Multi-Stage Build**: Efficient, clean image with isolated concerns.
 
-## 🧾 Project Structure
-. 
-├── Dockerfile
-├── package.json
-├── requirements.txt
-├── scrape.js
-├── server.py
-└── scraped_data.json (generated during build)
-
 ## 🛠️ How It Works
-
-1. **Stage 1: Scraper**
-   - Node.js and Puppeteer are used to scrape the `<title>` and first `<h1>` from a given URL.
-   - The data is saved into `scraped_data.json`.
-
-2. **Stage 2: Server**
-   - A minimal Flask app reads the `scraped_data.json` file and serves it via an HTTP endpoint.
+The Puppeteer script (scrape.js) opens a webpage, extracts the title and heading, and stores it in scraped_data.json.
+The Flask server (server.py) reads the scraped_data.json and serves the extracted data via a REST API at http://localhost:5000.
+The whole system is containerized using Docker for easy deployment.
 
 ## 🚀 Getting Started
 

@@ -57,5 +57,7 @@ http://localhost:5000/
 To stop and remove the running container:
 
 docker ps
+
 docker stop <container_id>
+
 docker rm <container_id>

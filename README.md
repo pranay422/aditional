@@ -11,7 +11,9 @@ This project scrapes a website using Puppeteer in a Node.js environment, saves t
 ## 🧾 Project Structure
 .
 ├── Dockerfile
+
 ├── package.json
+
 ├── requirements.txt
 ├── scrape.js
 ├── server.py
